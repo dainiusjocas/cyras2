@@ -13,7 +13,7 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("Program that demonstrates the way that backward " +
                 "chaining works starts to work:\n");
-        DataCollector dc = new DataCollector("src/backwardchaining/longer_9.txt");
+        DataCollector dc = new DataCollector(args[0]);
         BackwardChaining bc = new BackwardChaining(dc.getGoal(), dc.getFacts(), dc.getImplications());
         System.out.println("List of implications that was read from the data file: ");
         bc.printImplications();

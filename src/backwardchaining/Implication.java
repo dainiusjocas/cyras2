@@ -7,9 +7,9 @@ import java.util.ArrayList;
  * @author Dainius
  */
 public class Implication {
-    private String descriptor;
-    private String antecedent;
-    private String consequent;
+    private String descriptor; /* format: "Rn:" where n is the number of the implication */
+    private String antecedent; /* format: "ABCD" where every letter if a antecedent */
+    private String consequent; /* format: "A". Goal is always one capital letter*/
     private static int nr = 0;
 
     /**

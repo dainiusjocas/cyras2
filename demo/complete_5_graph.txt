@@ -1,0 +1,25 @@
+# Dainius Jocas
+AB
+BA
+AC
+CA
+AD
+DA
+AE
+EA
+BC
+CB
+BD
+DB
+BE
+EB
+CD
+DC
+CE
+EC
+DE
+ED
+
+D
+
+E
